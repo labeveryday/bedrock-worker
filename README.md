@@ -4,7 +4,36 @@ The BedrockWorker class provides a client for interacting with the AWS Bedrock s
 
 This is a worker that handles bedrock [control plane](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_Operations_Amazon_Bedrock.html) and [data plane](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_Operations_Amazon_Bedrock_Runtime.html) communication.
 
-## Usage
+## Getting started
+
+1. Clone the repo.
+
+```bash
+git clone https://github.com/labeveryday/bedrock-worker.git
+```
+
+2. Create a python virtual environment
+
+```bash
+python -m venv venv
+```
+
+3. Activate your virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+4. Install the requirements
+
+```bash
+pip install -r requirements.txt
+
+```
+
+From there you can create a `main.py` file to use the code or enter into the interpreter and try it out for yourself. 
+
+## How the class works
 
 Import the class:
 
