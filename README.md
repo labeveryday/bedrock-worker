@@ -73,7 +73,9 @@ for model in models['modelSummaries']:
 
 ## Example
 
-Here is sample code using main.py to create your first prompt to Bedrock:
+Here is sample code using the `anthropic.claude-v2` large language foundational model to create your first prompt to Bedrock:
+
+>NOTE: This model has to be enabled in the console. 
 
 ```python
 from bedrock_worker import BedrockWorker
